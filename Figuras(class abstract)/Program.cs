@@ -19,22 +19,12 @@ namespace curso
                 char c = char.Parse(Console.ReadLine());
                 if(c == 'r')
                 {
-                    Console.Write("Largura: ");
-                    double largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Altura: ");
-                    double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    figura f = new retangulo(largura, altura);
-                    lista.Add(f);
+                    figura f = tela.lerRetangulo();
+                    lista.Add(f);   
                 }
-                else if (c == 'r')
+                else if (c == 't')
                 {
-                    Console.Write("Lado A: ");
-                    double a = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Lado B: ");
-                    double b = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    Console.Write("Lado C: ");
-                    double c = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                    figura f = new triangulo(a,b,c);
+                    figura f = tela.lerTriangulo();
                     lista.Add(f);
                 }
             }
