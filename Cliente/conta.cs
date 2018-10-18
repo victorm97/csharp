@@ -22,6 +22,14 @@ namespace curso
 
         public void sacar (double valor)
         {
+            if(saldo < valor)
+            {
+                throw new OperacaoExeption ("Nao ha saldo suficiente! Saque Cancelado.");
+            }
+            if(valor > limiteDeSaque)
+            {
+                throw new OperacaoExeption ("Valor do saque e superior ao limite da conta ! Saque Cancelado.");
+            }
             saldo = saldo - valor;
         }
     }
