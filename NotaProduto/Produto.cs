@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace curso
 {
     class Produto
@@ -12,7 +14,7 @@ namespace curso
                 + ", "
                 + descricao
                 + ", "
-                + preco; 
+                + preco.ToString("F2", CultureInfo.InvariantCulture); 
         }
     }
 }
