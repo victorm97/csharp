@@ -1,4 +1,5 @@
 using System;
+using curso.Dominio;
 
 namespace Name
 {
