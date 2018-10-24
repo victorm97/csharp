@@ -1,7 +1,0 @@
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\bin\Debug\notaproduto.exe.config
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\bin\Debug\notaproduto.exe
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\bin\Debug\notaproduto.pdb
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\obj\Debug\notaproduto.csprojAssemblyReference.cache
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\obj\Debug\notaproduto.csproj.CoreCompileInputs.cache
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\obj\Debug\notaproduto.exe
-D:\Victor Melo\Documents\GDrive\ESTUDOS\CSharp\notaproduto\notaproduto\obj\Debug\notaproduto.pdb
